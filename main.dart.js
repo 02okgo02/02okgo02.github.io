@@ -47775,7 +47775,7 @@ try{b=K.a2n(c,t.a1)}catch(a9){H.P(a3)
 m.a.hm(0,"send("+a4+") jsonError: "+H.c(d))
 m.a.hm(0,"can't deserialize error: "+H.c(c))
 throw a3}m.a.hm(0,"send("+a4+") error: "+H.c(b))
-throw a3
+throw H.a(b)
 s=6
 break
 case 3:s=2
